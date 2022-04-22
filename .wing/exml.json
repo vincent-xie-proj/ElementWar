@@ -1,0 +1,67 @@
+{
+    "1802c73829d": {
+        "path": "view\\component\\GameScene.ts",
+        "class": "GameScene",
+        "parentPath": ""
+    },
+    "1802c81e9b6": {
+        "path": "view\\component\\Wheel.ts",
+        "class": "Wheel",
+        "parentPath": ""
+    },
+    "1803ac3a106": {
+        "path": "View\\Component\\LoadingScene.ts",
+        "class": "LoadingScene",
+        "parentPath": ""
+    },
+    "1803b67d698": {
+        "path": "View\\Component\\ControlPanel.ts",
+        "class": "ControlPanel",
+        "parentPath": ""
+    },
+    "1803b72a793": {
+        "path": "View\\Component\\SelectIcon.ts",
+        "class": "SelectIcon",
+        "parentPath": ""
+    },
+    "1803bbf308d": {
+        "path": "View\\Component\\PlayButton.ts",
+        "class": "PlayButton",
+        "parentPath": ""
+    },
+    "1803bbfacc0": {
+        "path": "View\\Component\\SelectButton.ts",
+        "class": "SelectButton",
+        "parentPath": ""
+    },
+    "180408e47bd": {
+        "path": "View\\Component\\MessageAlert.ts",
+        "class": "MessageAlert",
+        "parentPath": ""
+    },
+    "18040bb1a5f": {
+        "path": "View\\Component\\MessageConfirmButton.ts",
+        "class": "MessageConfirmButton",
+        "parentPath": ""
+    },
+    "18040d3c448": {
+        "path": "View\\Component\\MessageCloseButton.ts",
+        "class": "MessageCloseButton",
+        "parentPath": ""
+    },
+    "18044e6089a": {
+        "path": "View\\Component\\WinAnimation.ts",
+        "class": "WinAnimation",
+        "parentPath": ""
+    },
+    "18049cb7ae2": {
+        "path": "View\\Component\\GameScene.ts",
+        "class": "GameScene",
+        "parentPath": ""
+    },
+    "1804a00565d": {
+        "path": "View\\Component\\Role\\Role.ts",
+        "class": "Role",
+        "parentPath": ""
+    }
+}

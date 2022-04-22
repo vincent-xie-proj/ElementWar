@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role01Skin" width="150" height="170" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*">
+    <w:Declarations>
+        <tween:TweenGroup id="eyeTweenGroup">
+            <tween:TweenItem target="{eye_open}">
+                <tween:Set/>
+                <tween:Wait duration="1250" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="150" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="150" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="150" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:props>
+                    <e:Object loop="true" />
+                </tween:props>
+            </tween:TweenItem>
+        </tween:TweenGroup>
+        <tween:TweenGroup id="footTweenGroup">
+            <tween:TweenItem target="{hand_before}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object rotation="{40}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:To duration="750">
+                    <tween:props>
+                        <e:Object rotation="{3}" />
+                    </tween:props>
+                </tween:To>
+                <tween:To duration="750">
+                    <tween:props>
+                        <e:Object rotation="{40}" />
+                    </tween:props>
+                </tween:To>
+            </tween:TweenItem>
+        </tween:TweenGroup>
+    </w:Declarations>
+    <e:Group id="role" y="9" x="8">
+        <e:Image id="hand_after" source="role01_json.hand_02" x="87.5" y="72" rotation="10" />
+        <e:Image id="foot_after" source="role01_json.foot_02" x="67" y="105.2" locked="true" />
+        <e:Image id="body" source="role01_json.body" x="0" y="0" locked="true" />
+        <e:Group id="eye" x="41.5" y="33" locked="true">
+            <e:Image id="eye_close" source="role01_json.eye_01" x="0" y="0" locked="true" />
+            <e:Image id="eye_open" source="role01_json.eye_02" x="0" y="0" />
+        </e:Group>
+        <e:Image id="foot_before" source="role01_json.foot_01" x="15" y="107.99" locked="true" />
+        <e:Image id="hand_before" source="role01_json.hand_01" x="29.4" y="86.27" rotation="40" anchorOffsetX="14.78"
+                 anchorOffsetY="9.58" />
+    </e:Group>
+</e:Skin>
