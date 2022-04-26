@@ -1,8 +1,0 @@
-{"file":"role01.png","frames":{
-"body":{"x":1,"y":1,"w":124,"h":137,"offX":0,"offY":0,"sourceW":124,"sourceH":137},
-"eye_01":{"x":127,"y":1,"w":77,"h":65,"offX":0,"offY":0,"sourceW":77,"sourceH":65},
-"eye_02":{"x":127,"y":68,"w":77,"h":65,"offX":0,"offY":0,"sourceW":77,"sourceH":65},
-"foot_01":{"x":206,"y":113,"w":47,"h":45,"offX":0,"offY":0,"sourceW":47,"sourceH":45},
-"foot_02":{"x":206,"y":66,"w":48,"h":45,"offX":0,"offY":0,"sourceW":48,"sourceH":45},
-"hand_01":{"x":127,"y":135,"w":51,"h":63,"offX":0,"offY":0,"sourceW":51,"sourceH":63},
-"hand_02":{"x":206,"y":1,"w":47,"h":63,"offX":0,"offY":0,"sourceW":47,"sourceH":63}}}

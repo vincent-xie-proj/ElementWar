@@ -1,24 +1,9 @@
-class Role extends eui.Component implements eui.UIComponent {
-	private tweenGroups: egret.tween.TweenGroup[];
-	public constructor(skinName: string, tweenGroups: string[] = []) {
-		super();
-		this.once(eui.UIEvent.COMPLETE, () => {
-			console.log("UIEvent COMPLETE");
-		}, this);
-		this.skinName = skinName;
-		this.tweenGroups = tweenGroups.map(name => this[name]);
-	}
-
-	protected childrenCreated(): void {
-		super.childrenCreated();
-		console.log("childrenCreated");
-		for (const tweenGroup of this.tweenGroups) {
-			tweenGroup.play();
-		}
-	}
-
-	/**tweenGroup 重新播放 */
-	private onTweenGroupCompletePlay(e: egret.Event): void {
-		this["play"](0);
+class Role extends egret.MovieClip {
+	public constructor(name: string) {
+		const data = RES.getRes(`${name}_mc_json`);
+		const texture = RES.getRes(`${name}_tex_png`);
+		const movieClipDataFactory: egret.MovieClipDataFactory = new egret.MovieClipDataFactory(data, texture);
+		const movieClipData: egret.MovieClipData = movieClipDataFactory.generateMovieClipData(name);
+		super(movieClipData);
 	}
 }
